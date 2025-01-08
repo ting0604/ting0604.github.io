@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>減肥產品創新專案 APP</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: #ff6f61;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2em;
+      text-align: center;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      background: #ff6f61;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background: #ff4a3d;
+    }
+    .product, .testimonial {
+      background: white;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    form input, form textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#products">產品介紹</a></li>
+        <li><a href="#testimonials">用戶評價</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+        <li><a href="#features">功能特色</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>減肥產品創新專案 APP</h1>
+    <p>探索全新健康減肥方案，為您量身打造最適合的產品與服務。</p>
+    <button onclick="location.href='#products'">開始探索</button>
+  </section>
+
+  <section id="about">
+    <h2>關於我們</h2>
+    <p>我們專注於創新減肥產品，結合最新科學研究與天然成分，幫助您輕鬆達成減重目標。</p>
+  </section>
+
+  <section id="products">
+    <h2>產品介紹</h2>
+    <div class="product">
+      <h3>燃脂茶</h3>
+      <p>天然草本成分，有效促進新陳代謝。</p>
+      <button>了解更多</button>
+    </div>
+    <div class="product">
+      <h3>低卡零食</h3>
+      <p>美味又健康，滿足口腹之慾無負擔。</p>
+      <button>了解更多</button>
+    </div>
+    <div class="product">
+      <h3>輕纖膠囊</h3>
+      <p>抑制食慾，提升飽足感，輕鬆控制熱量攝取。</p>
+      <button>了解更多</button>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>功能特色</h2>
+    <ul>
+      <li>每日健康提醒，保持動力</li>
+      <li>飲食與運動記錄追蹤</li>
+      <li>個性化減重計劃建議</li>
+      <li>線上客服支援，隨時解答疑問</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>用戶評價</h2>
+    <div class="testimonial">
+      <p>"使用這些產品三個月，我減掉了10公斤！真的很有效！" - 小美</p>
+    </div>
+    <div class="testimonial">
+      <p>"口感好又健康，完全不覺得是在減肥！" - 小強</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡我們</h2>
+    <form>
+      <label for="name">姓名：</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">電子郵件：</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">留言：</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">送出</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 減肥產品創新專案 APP. 保留所有權利。</p>
+  </footer>
+</body>
+</html>
